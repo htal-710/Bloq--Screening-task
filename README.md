@@ -1,6 +1,7 @@
 # Bloq--Screening-task
 
 Methodology
+
 The goal of this approach is to address credit risk modeling using a quantum-classifier that leverages Adiabatic Quantum Support Vector Classifier (AQSVC). Here’s a concise overview of the methodology:
 
 Data Preprocessing:
