@@ -4,6 +4,13 @@ Methodology
 
 The goal of this approach is to address credit risk modeling using a quantum-classifier that leverages Adiabatic Quantum Support Vector Classifier (AQSVC). Here’s a concise overview of the methodology:
 
+
+
+Preprocess the Data: Prepare the dataset to be compatible with binary classification.
+Feature Mapping: Transform the features into a form suitable for quantum processing (e.g., binary encoding or kernel-based quantum feature maps).
+Define the Quadratic Unconstrained Binary Optimization (QUBO): Translate the SVM optimization problem into a QUBO.
+Solve on D-Wave: Use the D-Wave system to solve the QUBO problem.
+Evaluate the Results: Analyze the classifier's performance.
 Data Preprocessing:
 
 Only the numerical attributes from the provided German Credit dataset were selected, as they are well-suited for quantum optimization algorithms.
