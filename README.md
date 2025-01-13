@@ -1,16 +1,15 @@
 # Bloq--Screening-task
 
 Methodology
-
 The goal of this approach is to address credit risk modeling using a quantum-classifier that leverages Adiabatic Quantum Support Vector Classifier (AQSVC). Here’s a concise overview of the methodology:
 
 Data Preprocessing:
 
-We selected only the numerical attributes from the provided German Credit dataset, as they are well-suited for quantum optimization algorithms.
+Only the numerical attributes from the provided German Credit dataset were selected, as they are well-suited for quantum optimization algorithms.
 These features were standardized using StandardScaler to ensure consistency and improve the performance of the quantum solver.
 Quantum Classifier (AQSVC):
 
-We formulated the problem as a Quadratic Unconstrained Binary Optimization (QUBO) problem, which is the format required for quantum solvers.
+The problem was formulated as a Quadratic Unconstrained Binary Optimization (QUBO) problem, which is the format required for quantum solvers.
 The cost matrix was incorporated into the QUBO to prioritize the recall of the minority class (Bad credit), emphasizing penalties for misclassifying Bad credit customers as Good.
 Quantum Solver:
 
